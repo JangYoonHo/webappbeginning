@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About Jang Yoon Ho!</title> <!--character encoding은 UTF-8로 하라고 되어있는데 이게 어떤 의미인가요?-->
-        <h1>JangYoonHo</h1>
-        <hr/>
+        <title>About Jang Yoon Ho!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     </head>
-
     <body>
+      <h1>JangYoonHo</h1>
+      <hr/>
+      <div id="first_section">
         <p>I want to be a <strong>web developer</strong> or <strong>game developer</strong> later.</p>
         <hr/>
         <p>I am a <em>sophomore</em> in software.</p>
         <hr/>
         <p>
-            <link href="otter.jpg" type="image/jpg" rel="shortcut icon" /> <!--favicon이 작동이 안됩니다!-->
+            <link href="otter.jpg" type="image/jpg" rel="shortcut icon" /> 
         </p>
-    </body>
-
-    <head>
+      </div>
+      <div id="second_section">
         <p>
             <h1>My courses@<abbr title="Hanyang University">HYU</abbr></h1>
         </p>
-    </head>
-    <body>
         <u1>
             <li>
                 INE2018 - 전산통계학
@@ -33,108 +31,87 @@
                 MCT2007 - 모바일게임프로그래밍
             </li>
         </u1>
+      </div>
+      <div id="thrid_section">
+          <h1>My favorite Movies</h1>
+          <p>
+              <dl>
+                  <dt>3.Abata<a href="imdb.com"> IMDB</a></dt>
+                  <dd><u1>
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                  </u1>
+              </dd>
+  
+                  <dt>2.With God<a href="imdb.com"> IMDB</a></dt> 
+                  <dd><u1>
+                          <li>4</li>
+                          <li>5</li>
+                          <li>6</li>
+                  </u1></dd>
+                  <dt>1.Transformer<a href="imdb.com"> IMDB</a></dt> 
+                  <dd><u1>
+                          <li>7</li>
+                          <li>8</li>
+                          <li>9</li>
+                  </u1></dd>
+              </dl>
+          </p>
+      </div>
+      <div id="fourth">
+          <h1>My favorite food</h1>
+          <h2>이 3가지 음식은 정말 최고인 것 같아요!</h2>
+          <div>
+              <img src="라면.jpg" alt="라면" />
+              <span>라면</span>
+              <img src="콩나물국밥.jpg" alt="콩나물국밥" />
+              <span>콩나물국밥</span>
+              <img src="안동찜닭.jpg" alt="안동찜닭" />
+              <span>안동찜닭</span>
+          </div>
+      </div>
+      <div id="fifth_section">
+          <h1>My favorite quote</h1>
+          <blcokquote>
+              <p>
+                  <q>역사가 되풀이되고 예상치 못한 일이 반복해서 일어난다면 인간은 얼마나 경험에서 배울 줄 모르는 존재인가.</q>
+                  <br/> &macr;<strong>조지 버나드 쇼</strong>
+              </p>
+          </blcokquote>
+      </div>
+      <div id="sixth_section">
+          <h1>Fun facts about my friends</h1>
+          <table>
+              <caption>My best friends</caption>
+              <tr><th>First name</th><th>Facts</th></tr>
+              <tr><td>영민</td><td>농담을 잘 한다.</td></tr>
+              <tr><td>지호</td><td><del>농담</del><ins>코딩</ins>을 잘한다.</td></tr>
+          </table>
+      </div>
+      <div id="seven_section">
+          <h1>My favorite song</h1>
+          <p>
+              희망-그랜드체이스
+            <object data="video.avi" type="video/avi">
+                <param name="autoplay" value="true" />
+            </object>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/psAzNHJ803w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </p>
+      </div>
+      <div id="eight_section">
+        <article>
+            <h1>Web Application Development</h1>
+            <p>4학점 수업</p>
+          </article>
+          <p><strong>과목 특징</strong> 1주일에 1시간 반씩의 강의 2번과 2시간의 실습으로 구성되어 있다.</p>
+      </div>
+      <div id="nine_section">
+          <p>
+              <a href="https://validator.w3.org/check/referer"><img src="w3c-html.png"></a>
+              <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png"></a>.
+          </p>
+      </div>
+      <div id="ten_section"></div>
     </body>
-
-    <head>
-        <h1>My favorite Movies</h1>
-    </head>
-    <body>
-        <p>
-            <dl>
-                <dt>3.Abata<a href="imdb.com"> IMDB</a></dt> <!--ordered list로 역순서를 만들 수는 없나요?-->
-                <dd><u1>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                </u1>
-            </dd>
-
-                <dt>2.With God<a href="imdb.com"> IMDB</a></dt> 
-                <dd><u1>
-                        <li>4</li>
-                        <li>5</li>
-                        <li>6</li>
-                </u1></dd>
-                <dt>1.Transformer<a href="imdb.com"> IMDB</a></dt> 
-                <dd><u1>
-                        <li>7</li>
-                        <li>8</li>
-                        <li>9</li>
-                </u1></dd>
-            </dl>
-        </p>
-    </body>
-
-    <head>
-        <h1>My favorite food</h1>
-        </head>
-        <body>
-            <p>
-                이 3가지 음식은 정말 최고인 것 같아요!<!--이 설명은 제목 바로 아래에 나오게 하고 싶은데 잘 안되네요...;;-->
-                <img src="라면.jpg" alt="라면" /> <!--이미지 옆에 라면이라는 글자가 뜨게 하고 싶은데 나오질 않습니다-->
-                <img src="콩나물국밥.jpg" alt="콩나물국밥" />
-                <img src="안동찜닭.jpg" alt="안동찜닭" />
-            </p>
-        </body>
-
-        <head>
-            <h1>My favorite quote</h1>
-        </head>
-        <body>
-            <blcokquote>
-            <p>
-                <q>역사가 되풀이되고 예상치 못한 일이 반복해서 일어난다면 인간은 얼마나 경험에서 배울 줄 모르는 존재인가.</q>
-                <br/> &macr;<strong>조지 버나드 쇼</strong>
-            </p>
-        </blcokquote>
-        </body>
-
-        <head>
-            <h1>Fun facts about my friends</h1>
-        </head>
-
-        <body>
-                <table>
-                        <caption>My best friends</caption>
-                        <tr><th>First name</th><th>Facts</th></tr>
-                        <tr><td>영민</td><td>농담을 잘 한다.</td></tr>
-                        <tr><td>지호</td><td><del>농담</del><ins>코딩</ins>을 잘한다.</td></tr>
-                </table>
-
-        </body>
-
-        <head>
-            <h1>My favorite song</h1>
-        </head>
-
-        <body>
-                <p>
-                    희망-그랜드체이스
-                <object data="video.avi" type="video/avi">
-                    <param name="autoplay" value="true" />
-                </object>
-                <iframe width="425" height="350"
-                src="https://www.youtube.com/watch?v=psAzNHJ803w"><!--화면에서 유투브로의 연결이 안됩니다-->
-               </iframe>
-                </p>
-        </body>
-
-        <body>
-                <article>
-                  <h1>Web Application Development</h1>
-                  <p>4학점 수업</p>
-                </article>
-                <p><strong>과목 특징</strong> 1주일에 1시간 반씩의 강의 2번과 2시간의 실습으로 구성되어 있다.</p>
-                
-        </body>
-
-        <head>
-        </head>
-
-        <body>
-                <p>
-                    <a href="https://validator.w3.org/check/referer"><img src="w3c-html.png"></a>
-                    <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png"></a>.
-                </p>
-        </body>
 </html>
