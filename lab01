@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="ko">
 <html>
     <head>
         <title>About Jang Yoon Ho!</title>
@@ -20,7 +21,7 @@
         <p>
             <h1>My courses@<abbr title="Hanyang University">HYU</abbr></h1>
         </p>
-        <u1>
+        <ul>
             <li>
                 INE2018 - 전산통계학
             </li>
@@ -30,32 +31,32 @@
             <li>
                 MCT2007 - 모바일게임프로그래밍
             </li>
-        </u1>
+        </ul>
       </div>
       <div id="thrid_section">
           <h1>My favorite Movies</h1>
           <p>
               <dl>
                   <dt>3.Abata<a href="imdb.com"> IMDB</a></dt>
-                  <dd><u1>
+                  <dd><ul>
                       <li>1</li>
                       <li>2</li>
                       <li>3</li>
-                  </u1>
+                  </ul>
               </dd>
   
                   <dt>2.With God<a href="imdb.com"> IMDB</a></dt> 
-                  <dd><u1>
+                  <dd><ul>
                           <li>4</li>
                           <li>5</li>
                           <li>6</li>
-                  </u1></dd>
+                  </ul></dd>
                   <dt>1.Transformer<a href="imdb.com"> IMDB</a></dt> 
-                  <dd><u1>
+                  <dd><ul>
                           <li>7</li>
                           <li>8</li>
                           <li>9</li>
-                  </u1></dd>
+                  </ul></dd>
               </dl>
           </p>
       </div>
@@ -73,12 +74,12 @@
       </div>
       <div id="fifth_section">
           <h1>My favorite quote</h1>
-          <blcokquote>
+          <blockquote>
               <p>
                   <q>역사가 되풀이되고 예상치 못한 일이 반복해서 일어난다면 인간은 얼마나 경험에서 배울 줄 모르는 존재인가.</q>
                   <br/> &macr;<strong>조지 버나드 쇼</strong>
               </p>
-          </blcokquote>
+          </blockquote>
       </div>
       <div id="sixth_section">
           <h1>Fun facts about my friends</h1>
