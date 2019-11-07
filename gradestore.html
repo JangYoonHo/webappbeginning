@@ -18,24 +18,25 @@
 		<h2>Buy your Grade today!</h2>
 		
 		<!-- create an HTML Form -->
-		Name: <input type="text" name="a" />
-		ID: <input type="text" name="b" /></br>
+		<form action="http://localhost/cheater.php" method="post">
+			Name: <input type="text" name="name" />
+			ID: <input type="text" name="id" /></br>
 
-		Course: <input type="checkbox" name="CSE326" checked="checked"/> CSE326
-				<input type="checkbox" name="CSE107" /> CSE107
-				<input type="checkbox" name="CSE603" /> CSE603
-				<input type="checkbox" name="CIN870" /> CIN870</br>
+			Course: <input type="checkbox" name="c" checked="checked"/> CSE326
+				<input type="checkbox" name="c" /> CSE107
+				<input type="checkbox" name="c" /> CSE603
+				<input type="checkbox" name="c" /> CIN870</br>
 			
-		Grade: <select name="Grade">
+			Grade: <select name="Grade">
 				<option selected="selected">A+</option>
 				<option>A</option>
 				<option>B+</option>
 				<option>B</option>
 			  </select></br>
 	
-			Credit Card: <input type="text" name="c"/>
-						 <input type="radio" name="Visa"/>Visa
-						 <input type="radio" name="MasterCard"/>MasterCard
+			Credit Card: <input type="text" name="d"/>
+						 <input type="radio" name="d2"/>Visa
+						 <input type="radio" name="d2"/>MasterCard
 				
 	
 			<div id="submitbutton">
@@ -43,7 +44,6 @@
 				<!-- create submit button here -->
 			</div>
 
-			<form action="http://localhost/cheater.php" method="post">
 			  </form>
 	</body>
 </html>
